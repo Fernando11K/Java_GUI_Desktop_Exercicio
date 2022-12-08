@@ -1,0 +1,21 @@
+package controller;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class CaixaDeTexto extends JFrame {
+	
+	public CaixaDeTexto() {
+		super("Caixa de Texto");
+		JTextField caixaDeTexto = new JTextField(20);
+		caixaDeTexto.setText("Digite algo aqui");
+		caixaDeTexto.setToolTipText("Digite logo!!!");
+		
+	}
+
+	public static void main(String[] args) {
+	
+		new CaixaDeTexto();
+	}
+
+}
